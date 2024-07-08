@@ -1,7 +1,5 @@
 export CUDA_VISIBLE_DEVICES=7
 export NCCL_IGNORE_DISABLED_P2P=1
-cd /home/jye/zxp/LegalBench/legalbench 
-# pip install nltk
 
 DATA_DIR="/home/jye/huggingface/datasets/legalbench/data"
 MODEL_NAME_OR_PATH="/home/jye/huggingface/pretrained_model/Meta-Llama-3-8B-Instruct/"

@@ -130,15 +130,6 @@ MY_EXACT_MATCH=[
     "maud_specific_performance",
     "maud_tail_period_length",
     "maud_type_of_consideration",
-]
-
-# These tasks are evaluated using exact-match balanced-accuracy
-EXACT_MATCH_BALANCED_ACC_TASKS = [
-    "citation_prediction_classification",
-    "corporate_lobbying",
-    "diversity_1",
-    "legal_reasoning_causality",
-    "nys_judicial_ethics",
     "opp115_data_retention",
     "opp115_data_security",
     "opp115_do_not_track",
@@ -148,15 +139,9 @@ EXACT_MATCH_BALANCED_ACC_TASKS = [
     "opp115_third_party_sharing_collection",
     "opp115_user_access,_edit_and_deletion",
     "opp115_user_choice_control",
-    "oral_argument_question_purpose",
-    "overruling",
-    "personal_jurisdiction",
     "privacy_policy_entailment",
-    "privacy_policy_qa",
-    "proa",
-    "sara_entailment",
-    "successor_liability",
-    "scalr",
+    "privacy_policy_qa",    
+    "personal_jurisdiction",
     "supply_chain_disclosure_best_practice_accountability",
     "supply_chain_disclosure_best_practice_audits",
     "supply_chain_disclosure_best_practice_certification",
@@ -172,6 +157,22 @@ EXACT_MATCH_BALANCED_ACC_TASKS = [
     "textualism_tool_plain",
     "ucc_v_common_law",
     "unfair_tos",
+    "proa",
+    "sara_entailment",
+    "legal_reasoning_causality",
+    "nys_judicial_ethics",
+    "scalr"
+    "oral_argument_question_purpose",
+    "overruling",
+]
+
+
+# These tasks are evaluated using exact-match balanced-accuracy
+EXACT_MATCH_BALANCED_ACC_TASKS = [
+    "citation_prediction_classification",
+    "corporate_lobbying",
+    "diversity_1",
+    "successor_liability",
 ]
 
 # This task needs to be evaluated by hand.

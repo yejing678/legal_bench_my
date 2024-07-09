@@ -141,7 +141,6 @@ TASKS = [
     "privacy_policy_entailment",
     "privacy_policy_qa",
     "proa",
-    "rule_qa",
     "scalr",
     "ssla_company_defendants",
     "ssla_individual_defendants",
@@ -187,7 +186,6 @@ ISSUE_TASKS = [
 ]
 
 RULE_TASKS = [
-    "rule_qa",
     "international_citizenship_questions",
     "nys_judicial_ethics",
     "citation_prediction_classification",
